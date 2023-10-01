@@ -1,0 +1,103 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.burgerNav {
+    width: 100vw;
+    height: 5vh;
+    background-color: #ffc107;
+    font-family: Ubuntu;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+
+}
+
+.navBar {
+    padding-left: 3cm;
+    padding-right: 3cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.burger {
+    border: 2px solid gray;
+    width: 10cm;
+    height: 12cm;
+    border-radius: 2%;
+}
+
+.font {
+    font-family: Ubuntu;
+
+}
+
+input {
+    background-color: #ffc107;
+    border-radius: 10%;
+    padding:5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+}
+
+.Available {
+    color: white;
+    background-color: #198754 ;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+
+img {
+    width: 10cm;
+    display: flex;
+}
+
+.disposition {
+    text-align: center;
+}
+
+.line {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line4 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.4cm;
+}
+
+.line4 {
+    display: flex;
+    justify-content: start;
+    gap: 28px;
+}
+
+
+
+
+
+
+
+
